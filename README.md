@@ -1,4 +1,4 @@
-# Online-Retail-Stores-
+# Online-Retail-Stores - Using MySQL
 Online Retail Stores Using My SQL
 
 1 - Write a query to display customer full name with their title (mr/ms), both first name and last name are in upper case with customer email id, customer creation date and display customer’s category after applying below categorization rules:
