@@ -11,11 +11,11 @@ Online Retail Stores Using My SQL
 
 2. Write a query to display the following information for the products, which have not been sold:  product_id, product_desc, product_quantity_avail, product_price, inventory values(product_quantity_avail*product_price), new_price after applying discount as per the below criteria. Sort the output concerning the decreasing value of inventory_value.
 
-   i. If product price > 20,000 then apply 20% discount
+       i. If product price > 20,000 then apply 20% discount
 
-   ii. If product price > 10,000 then apply 15% discount
+       ii. If product price > 10,000 then apply 15% discount
 
-   iii. If product price =< 10,000 then apply 10% discount
+       iii. If product price =< 10,000 then apply 10% discount
 
  
  4. write a query to display product_class_code, product_class_description, count of product type in each product class, and inventory value (p.product_quantity_avail*p.product_price). 
@@ -34,21 +34,33 @@ Online Retail Stores Using My SQL
  9. Write a query to display product_id, product_desc, product_quantity_avail, quantity sold, and show inventory status of products as below as per below condition:
  
  a. For electronics and computer categories, 
+    
     i. If sales till date is zero then show 'no sales in past, give discount to reduce inventory',
+    
     ii. If inventory quantity is less than 10% of quantity sold, show 'low inventory, need to add inventory', 
+    
     iii. If inventory quantity is less than 50% of quantity sold, show 'medium inventory, need to add some inventory', 
+    
     iv. If inventory quantity is more or equal to 50% of quantity sold, show 'sufficient inventory'
  
  b. For mobiles and watches categories, 
+    
     i. If sales till date is zero then show 'no sales in past, give discount to reduce inventory', 
+    
     ii. If inventory quantity is less than 20% of quantity sold, show 'low inventory, need to add inventory',  
+    
     iii. If inventory quantity is less than 60% of quantity sold, show 'medium inventory, need to add some inventory', 
+    
     iv. If inventory quantity is more or equal to 60% of quantity sold, show 'sufficient inventory'
 
  c. Rest of the categories, 
+    
     i. If sales till date is zero then show 'no sales in past, give discount to reduce inventory', 
+    
     ii. If inventory quantity is less than 30% of quantity sold, show 'low inventory, need to add inventory',  
+    
     iii. If inventory quantity is less than 70% of quantity sold, show 'medium inventory, need to add some inventory', 
+    
     iv. If inventory quantity is more or equal to 70% of quantity sold, show 'sufficient inventory'
 
 9. Write a query to display product_id, product_desc and total quantity of products which are sold together with product id 201 and are not shipped to city bangalore and new delhi. Display the output in descending order concerning tot_qty.(use sub-query)  
